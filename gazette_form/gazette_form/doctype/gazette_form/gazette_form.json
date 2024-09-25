@@ -1,0 +1,185 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-23 15:56:29.150019",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "resident",
+  "column_break_rsoc",
+  "nri",
+  "column_break_sswt",
+  "new_enrollment",
+  "column_break_rrqq",
+  "update_aadhaar",
+  "section_break_hylp",
+  "aadhaar_number",
+  "full_name",
+  "section_break_gjkp",
+  "co",
+  "street",
+  "arealocality",
+  "post_office",
+  "district",
+  "dob",
+  "column_break_qzlj",
+  "house_number",
+  "landmark",
+  "villagetown",
+  "pin_code",
+  "state"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "resident",
+   "fieldtype": "Check",
+   "label": "Resident"
+  },
+  {
+   "fieldname": "column_break_rsoc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "nri",
+   "fieldtype": "Check",
+   "label": "NRI"
+  },
+  {
+   "fieldname": "column_break_sswt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "new_enrollment",
+   "fieldtype": "Check",
+   "label": "New Enrollment"
+  },
+  {
+   "fieldname": "column_break_rrqq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "update_aadhaar",
+   "fieldtype": "Check",
+   "label": "Update"
+  },
+  {
+   "fieldname": "section_break_hylp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "aadhaar_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Aadhaar Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "co",
+   "fieldtype": "Data",
+   "label": "C/o"
+  },
+  {
+   "fieldname": "house_number",
+   "fieldtype": "Data",
+   "label": "House number"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street"
+  },
+  {
+   "fieldname": "landmark",
+   "fieldtype": "Data",
+   "label": "Landmark"
+  },
+  {
+   "fieldname": "arealocality",
+   "fieldtype": "Data",
+   "label": "Area/Locality"
+  },
+  {
+   "default": "Bhatkal",
+   "fieldname": "villagetown",
+   "fieldtype": "Data",
+   "label": "Village/Town",
+   "reqd": 1
+  },
+  {
+   "default": "Bhatkal",
+   "fieldname": "post_office",
+   "fieldtype": "Data",
+   "label": "Post office",
+   "reqd": 1
+  },
+  {
+   "default": "Uttar Kannada",
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District",
+   "reqd": 1
+  },
+  {
+   "default": "Karnataka",
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State",
+   "reqd": 1
+  },
+  {
+   "default": "581 320",
+   "fieldname": "pin_code",
+   "fieldtype": "Data",
+   "label": "Pin code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_gjkp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_qzlj",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-24 14:07:58.916732",
+ "modified_by": "Administrator",
+ "module": "Gazette Form",
+ "name": "Gazette Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
